@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "$(dirname "${BASH_SOURCE[0]}")/orange_`uname -s | tr [A-Z] [a-z]`_amd64" "$@"
